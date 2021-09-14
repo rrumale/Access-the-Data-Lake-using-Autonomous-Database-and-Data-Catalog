@@ -3,9 +3,9 @@
 
 ## About this Workshop
 
-The purpose of this workshop is to introduce you to Oracle Cloud and the unique capabilities of Oracle's Autonomous Data Warehouse. It is designed to be used alongside your own cloud account (paid or Bring-Your-Own-License) or you can register and claim free trial credits which provides up to 3,300 hours of cloud time, and 2 TB of storage which is more than enough time and storage space to run this lab. 
+The purpose of this workshop is to introduce you to Oracle Cloud and the unique capabilities of Oracle's Autonomous Data Warehouse. It is designed to be used alongside your own cloud account (paid or Bring-Your-Own-License) or you can register and claim free trial credits which provides up to 3,300 hours of cloud time, and 2 TB of storage which is more than enough time and storage space to run this lab.
 
-**NOTE:** The timings shown in the notes and screenshots for this workshop assume an ADW instance configured with 1TB of storage and 8 OCPUs. You can configure your own ADW instance with fewer OCPUs and still use the scripts below. However, while all the scripts will complete successfully, the timings for some of the steps will be longer.
+**NOTE:** The timings shown in the notes and screenshots for this workshop assume an ADW instance configured with 1TB of storage and 3 OCPUs. You can configure your own ADW instance with fewer OCPUs and still use the scripts below. However, while all the scripts will complete successfully, the timings for some of the steps will be longer.
 
 Estimated Workshop Time: 1 hour
 
@@ -19,7 +19,7 @@ The aim of this workshop is to explore how Autonomous Data Warehouse can support
 
 * Quickly and easily load data into an Autonomous Data Warehouse
 
-* Learn how to enable data integrity features to manage data quality challenges 
+* Learn how to enable data integrity features to manage data quality challenges
 
 * Explore how to update existing data using Oracle's MERGE command
 

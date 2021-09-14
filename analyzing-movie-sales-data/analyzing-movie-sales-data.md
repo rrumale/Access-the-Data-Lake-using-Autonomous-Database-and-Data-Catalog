@@ -4,17 +4,12 @@
 
 In most real-world scenarios, queries against your data warehouse would normally involve the use of a data visualization tool such as Oracle Analytics Cloud (alternatively, 3rd party business intelligence products such as Qlik, Tableau, PowerBI, and so on, currently support Autonomous Data Warehouse). Within this part of the workshop we will use SQL commands to query our data using the built-in SQL Worksheet.  
 
-**Note:** Your Autonomous Data Warehouse also comes complete with a built-in machine learning notebook tool which is launched from the tools menu on the console page. It is aimed at data scientists and data analysts and allows them to build machine learning models using PL/SQL, Python and/or R. This feature is explored in one of our other online labs for Autonomous Data Warehouse.
-
-  *Autonomous Data Warehouse also provides 5 free licenses for Oracle Analytics Desktop, which is the desktop client version of Oracle Analytics Cloud. For more information about Oracle Analytics Cloud [click here](https://www.oracle.com/uk/business-analytics/analytics-cloud.html)*.
 
 Estimated time: 15 minutes
 
 ### Objectives
 
 - Understand how to use SQL Worksheet
-
-- Learn how query caching improves performance
 
 - Learn about the different types of built-in calculations
 
