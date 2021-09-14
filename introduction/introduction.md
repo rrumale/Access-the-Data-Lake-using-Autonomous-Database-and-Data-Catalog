@@ -1,43 +1,55 @@
-![moviestream](images/moviestream.jpeg)
+﻿
 # Introduction
 
 ## About this Workshop
 
-Most workshops focus on teaching you about a cloud service or performing a series of tasks. This workshop is different. You will learn how to deliver high value solutions using Oracle Cloud data platform services. And, the workshop will do this in the context of a company that we all can relate to and understand.
+The purpose of this workshop is to introduce you to Oracle Cloud and the unique capabilities of Oracle's Autonomous Data Warehouse. It is designed to be used alongside your own cloud account (paid or Bring-Your-Own-License) or you can register and claim free trial credits which provides up to 3,300 hours of cloud time, and 2 TB of storage which is more than enough time and storage space to run this lab. 
 
-Oracle MovieStream is a fictitious movie streaming service - similar to those that you currently subscribe to. They face challenges that are typical to many organizations across industries. MovieStream needs to:
-* Gain a better understanding of their customers to ensure that they love the service  
-* Offer the right products to the right customers at the right price  
-* Grow the business to become a dominant player in the streaming business
-* and much, much more
+**NOTE:** The timings shown in the notes and screenshots for this workshop assume an ADW instance configured with 1TB of storage and 8 OCPUs. You can configure your own ADW instance with fewer OCPUs and still use the scripts below. However, while all the scripts will complete successfully, the timings for some of the steps will be longer.
 
-Oracle Cloud provides an amazing platform to productively deliver secure, insightful, scalable and performant solutions. MovieStream designed their solution leveraging the world class Autonomous Database and OCI Data Lake services. Their data architecture is following the Oracle Reference Architecture [Enterprise Data Warehousing - an Integrated Data Lake](https://docs.oracle.com/en/solutions/oci-curated-analysis/index.html#GUID-7FF7A024-5EB0-414B-A1A5-4718929DC7F2) - which is used by Oracle customers around the world. It's worthwhile to review the architecture so you can understand the value of integrating the data lake and data warehouse - as it allows you to answer more complex questions using all your data.
+Estimated Workshop Time: 1 hour
 
-In this workshop, we'll start with two key components of MovieSteam's architecture. MovieStream is storing their data across Oracle Object Storage and Autonomous Database. Data is captured from various sources into a landing zone in object storage. This data is then processed (cleansed, transformed and optimized) and stored in a gold zone on object storage.  Once the data is curated, it is loaded into an Autonomous Database where it is analyzed by many (and varied) members of the user community.
+### Who Should Use This Workshop?
 
-![architecture](images/architecture.png)
-
-You will learn how they built their solution and performed sophisticated analytics thru a series of labs that highlight the following:
+Everyone can benefit from doing the exercises listed in this guide: technical experts (data warehouse architects to database administrators), business users who want to focus on extracting meaning and insight from their own data, along with data scientists who want to build machine learning models within the context of a data warehouse project.
 
 ### Objectives
-* Deploy an Autonomous Database instance
-* Integrate Autonomous Database with the Data Lake
-* Use advanced SQL to uncover issues and possibilities
-* Predict customer churn using with Machine Learning
-* Use spatial analyses to help provide localized promotions
-* Offer recommendations based on graph relationships
 
-### What's Next
-The workshop will continue to evolve and highlight more capabilities that will has allowed MovieStream to improve their operations and profitability. Keep an eye on this space!
+The aim of this workshop is to explore how Autonomous Data Warehouse can support the types of everyday business operations that are needed for real-world data analysis. At the end of this workshop, you will have learned how to do the following:
+
+* Quickly and easily load data into an Autonomous Data Warehouse
+
+* Learn how to enable data integrity features to manage data quality challenges 
+
+* Explore how to update existing data using Oracle's MERGE command
+
+* Learn more about how Autonomous Data Warehouse stores and manages your data
+
+### Prerequisites
+
+Before you launch into this workshop, you will need the following:
+
+* Basic knowledge of Oracle Cloud
+
+* Basic level of understanding of SQL query language
 
 
-## Learn More
+If you have any questions about the topics covered in this lab and the entire workshop, please contact us by posting on our public forum on [cloudcustomerconnect.oracle.com](http://cloudcustomerconnect.oracle.com) and we will respond as soon as possible.
 
-* [Enterprise Data Warehousing - an Integrated Data Lake](https://docs.oracle.com/en/solutions/oci-curated-analysis/index.html#GUID-7FF7A024-5EB0-414B-A1A5-4718929DC7F2)
-* [Autonomous Database Workshops](https://apexapps.oracle.com/pls/apex/dbpm/r/livelabs/livelabs-workshop-cards?p100_product=82&me=65&clear=100)
-*[Autonomous Database web site](https://www.oracle.com/autonomous-database/)
-* [Autonmous Data Warehouse Videos](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-cloud/videos.html)
+## Business Case: Oracle MovieStream
+
+To make this workshop as realistic as possible, let us introduce the business scenario you will use during this workshop - **Oracle MovieStream**.
+
+![Logo graphic of Oracle MovieStream](images/3038282309.jpeg)
+
+### Welcome to Oracle MovieStream
+
+Oracle MovieStream is a fictitious on-line movie streaming company. Customers log into Oracle MovieStream using their computers, tablets and phones where they are presented with a targeted list of movies based on their past viewing habits. The company is now looking for better, smarter ways to track performance, identifying customers to target with campaigns that promote new services, new movies and new viewing platforms. Many of the scenarios in this workshop will very likely match the challenges you are seeing in your business and we hope the following labs and accompanying workshops will give you some insight into how Oracle can help you solve these common everyday business and technical challenges.
 
 ## Acknowledgements
-* **Author** - Marty Gubar, Product Manager
-* **Last Updated By/Date** - Marty Gubar, Product Manager, July 2021
+
+* **Created By/Date** - Keith Laker, Product Manager, Autonomous Database, March 2021
+
+* **Contributors** - Nilay Panchal, Rick Green, Patrick Wheeler, Marty Gubar, Bud Endress, Jayant Mahto, Mike Matthews
+
+* **Last Updated By** - Brianna Ambler, July 2021
