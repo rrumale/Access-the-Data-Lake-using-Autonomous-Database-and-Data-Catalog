@@ -1,10 +1,10 @@
 ﻿
-# Use Autonomous Database Tools
+# Use Autonomous Database data catalog.
 
 ## Introduction
-This lab introduces the suite of data tools built into the Oracle Autonomous Data Warehouse.
+This lab introduces How to use data catalog in Database Action over Oracle Autonomous Data Warehouse.
 
-Estimated Time: 1 hour, 15 minutes
+Estimated Time: 3 minutes
 
 ### Objectives
 In this lab, you will:

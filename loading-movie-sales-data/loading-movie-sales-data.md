@@ -4,7 +4,7 @@
 
 To help us do some financial analysis, the IT Team at MovieStream has created a data extract for us from the MovieStream operational systems. The quarter-end closing process takes a few days, so some of our data contains an early snapshot of our company's financial trading data. We can expect a second set of files a bit later, which will contain the final updates that reflect the closed-status of the accounts.
 
-Estimated Lab Time: 10 minutes
+Estimated Lab Time: 7 minutes
 
 ### Objectives
 

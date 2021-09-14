@@ -16,7 +16,7 @@ In this lab, you will:
 *   Determine how much space the external table is consuming.
 *   Update the movie sales data using MERGE.
 *   Confirm the very small increase in space usage after updating the data using MERGE.
-*   Create additional external tables.
+
 
 ### Prerequisites
 
