@@ -217,7 +217,7 @@ The files for this data load process are stored in a series of regional buckets.
     FROM movie_sales_fact;</copy>
     ```
 
-4. This shows that our revenue has gone down slightly since we are now reporting a figure of $160,364,274.19 (vs. the previous value of $160,365,556.83):
+4. This shows that our revenue has gone down slightly since we are now reporting a figure of 48,063,965.96 (vs. the previous value of 48,064,343.58):
 
     ![Results of query to validate financial adjustments file processed successfuly](images/3054194694.png)
 

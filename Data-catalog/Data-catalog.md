@@ -25,12 +25,7 @@ To complete this lab, you need to have the following:
 
 *True fans of period dramas on MovieStream study [Burke’s Peerage](https://www.burkespeerage.com/) in their spare time. They know that impeccable lineage is a non-negotiable quality in a suitable love-match for an aristocrat. They are just as keenly aware that a clear line of succession is an essential consideration. The untimely demise of a principal character could have profound implications for the continuity of a great family’s line. These people will have an instinctive appreciation for Autonomous Database’s Catalog tool, which shows both Lineage and Impact Analysis clearly for any entity in the system, be it a table, view, business model, or whatever.*
 
-#### Video Preview
 
-Watch a video demonstration of the Catalog tool of Autonomous Database:
-
-[] (youtube:qi7HxiVyfOc)
-> **Note:** Interfaces in this video may look different from the interfaces you will see.
 
 Data is capital and the built-in Catalog tool allows you to maximize its value. Data Lineage and Impact Analysis are now at your fingertips in this integrated tool, which you explore in this part of the workshop.
 
