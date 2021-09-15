@@ -33,6 +33,11 @@
         "filename": "../../updating-sales-data/updating-sales-data.md"
       },
       {
+        "title": "Lab 6: Autonomous Data catalog",
+        "description": "Use Autonomous Database catalog",
+        "filename": "../../Data-catalog/Data-catalog.md"
+      },
+      {
         "title": "Need Help?",
         "description": "Solutions to Common Problems and Directions for Receiving Live Help",
         "filename":"https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/need-help/need-help-freetier.md"

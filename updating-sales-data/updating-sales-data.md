@@ -5,7 +5,7 @@
 
 Autonomous Database automatically manages the data storage process for you, so there are no settings to monitor or tweak. You simply load your data, update your data and let Autonomous Database efficiently manage how that data is stored. You will update the movie sales data using MERGE.
 
-Estimated Lab Time: 5 minutes
+Estimated Lab Time: 10 minutes
 
 ### Objectives
 
@@ -106,7 +106,7 @@ The files for this data load process are stored in a series of regional buckets.
 		</copy>
     ```
 
-2. This will return something similar to the results shown below: 8.441 GB.
+2. This will return something similar to the results shown below: 2.497 GB.
 
     ![Query result showing space consumed by movie sales table](images/3054194685.png)
 

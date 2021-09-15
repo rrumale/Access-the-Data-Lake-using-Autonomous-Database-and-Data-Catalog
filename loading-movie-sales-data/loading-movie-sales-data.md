@@ -275,7 +275,7 @@ A smarter and more efficient way to load all the data for 2018 to 2020 is to let
     ```
     <copy>BEGIN
     DBMS_CLOUD.COPY_DATA (table_name => 'MOVIE_SALES_FACT',
-    file_uri_list => '&uri_ms_oss_bucket/d801_movie_sales_fact_m-*.csv',
+    file_uri_list => '&uri_ms_oss_bucket/d801_movie_sales_fact_m-2020*.csv',
     format =>  '&csv_format_string'
     );
     END;
@@ -328,7 +328,7 @@ A smarter and more efficient way to load all the data for 2018 to 2020 is to let
     <copy>SELECT COUNT(*) FROM movie_sales_fact;</copy>
     ```
 
-12. Running the above query should return the value 97,890,562 records, as shown below in the Query Result window:
+12. Running the above query should return the value 28,884,643 records, as shown below in the Query Result window:
 
     ![Query result window showing number of rows in table](images/3054194703.png)
 
@@ -353,9 +353,9 @@ A smarter and more efficient way to load all the data for 2018 to 2020 is to let
     WHERE RECORD LIKE '%Data File%'ORDER BY 1;</copy>
     ```
 
-16. This should return a list of 35 entries as shown below:
+16. This should return a list of 11 entries as shown below:
 
-    ![List of 35 entries](images/3054194701.png)
+    ![List of 11 entries](images/3054194701.png)
 
 
 ## Next Steps
