@@ -33,6 +33,11 @@
         "filename": "../../updating-sales-data/updating-sales-data.md"
       },
       {
+        "title": "Lab 5: Loading data from datafeed",
+        "description": "Loading data from datafeed.",
+        "filename": "../../loading-datafeed/loading-datafeed.md"
+      },
+      {
         "title": "Lab 6: Autonomous Data catalog",
         "description": "Use Autonomous Database catalog",
         "filename": "../../Data-catalog/Data-catalog.md"
