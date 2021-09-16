@@ -1,4 +1,4 @@
-# Loading data from Data Feed
+# Loading data using Live Feed
 
 ## About this lab
 
