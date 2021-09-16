@@ -59,7 +59,13 @@ Change the consumer group by simply clicking the downward pointing arrow next to
 
     ![The result of simple query should look like this.](images/analytics-lab-1-step-1-substep-2.png)
 
+3. Lets run below simple query and keep the output for future reference.
 
+    ```
+    <copy>SELECT
+    SUM(actual_price)
+    FROM movie_sales_fact;</copy>
+    ```
 
 Please *proceed to the next lab*.
 
