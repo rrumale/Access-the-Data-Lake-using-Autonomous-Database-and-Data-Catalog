@@ -14,7 +14,6 @@ In this lab, you will:
 - Schedule job to load the recently uploaded data.
 - Verify the data uploaded
 
-
 ### Prerequisites
 
 To complete this lab, you need to have the following:
@@ -22,7 +21,6 @@ To complete this lab, you need to have the following:
 - Have completed all preceding labs
 - Sample data files used in exercise
 - Download the sample data files
-
 
 ## Task 1: Create a new bucket, add initial data and create a pre-authenticated request URI
 
