@@ -181,3 +181,10 @@ We can check the execution history of Live feed jobs and any errors received fro
 
 3. Live feed logs.  On the Live Feed page, you click on the settings icon on the bottom left corner of the window.  It would open up a “Database Action Processes” dialog box showing the history of the live feed job runs.
 ![Check Live Feed Run Details from live feed schedule ](images/check_logs_from_settings_icon_on_live_feed_page.png =1000x1000)
+
+
+## **Acknowledgements**
+
+- **Author** - Rajeev Rumale, Product Manager, Platform Technology Services
+- **Contributor** - Satyabrata Mishra, Troy Anthony 
+- **Last Updated By/Date** - Rajeev Rumale, September 2021

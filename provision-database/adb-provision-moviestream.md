@@ -87,6 +87,8 @@ In this lab, you will:
 
       ![Choose the remaining parameters.](./images/Picture100-26c.png)
 
+      By default it is one CPU. You can choose CPU based on your requirements.
+
 13. Create administrator credentials:
 
     - __Password and Confirm Password__ - Specify the password for ADMIN user of the service instance. The password must meet the following requirements:
@@ -126,5 +128,5 @@ Click [here](https://docs.oracle.com/en/cloud/paas/autonomous-data-warehouse-clo
 ## Acknowledgements
 
 - **Author** - Nilay Panchal, ADB Product Management
-- **Adapted for Cloud by** - Richard Green, Principal Developer, Database User Assistance
-- **Last Updated By/Date** - Rick Green, August 2021
+- **Contributor** - Satyabrata Mishra, Product Manager, Platform technology services
+- **Last Updated By/Date** - Satyabrata Mishra, Sept 2021

@@ -267,6 +267,6 @@ Please *proceed to the next lab*.
 
 ## **Acknowledgements**
 
-* **Author** - Keith Laker, ADB Product Management
-* **Adapted for Cloud by** - Richard Green, Principal Developer, Database User Assistance
-* **Last Updated By/Date** - Brianna Ambler, July 2021
+- **Author** - Satyabrata Mishra, Product Manager, Platform Technology Services
+- **Contributor** - Rajeev Rumale, Product Manager, Platform Technology Services
+- **Last Updated By/Date** - Satyabrata Mishra, September 2021

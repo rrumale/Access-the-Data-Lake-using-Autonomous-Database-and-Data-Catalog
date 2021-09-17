@@ -56,6 +56,6 @@ See the documentation on [Database Actions](https://docs.oracle.com/en/database
 
 ## Acknowledgements
 
-- Created By/Date - Patrick Wheeler, Product Management, Autonomous Database, March 2021
-- Contributors - Keith Laker, Rick Green, Nilay Panchal, Hermann Baer
-- Last Updated By - Arabella Yao, August 2021
+- **Author** - Satyabrata Mishra, Product Manager, Platform Technology Services
+- **Contributor** - Rajeev Rumale, Product Manager, Platform Technology Services
+- **Last Updated By/Date** - Satyabrata Mishra, September 2021
