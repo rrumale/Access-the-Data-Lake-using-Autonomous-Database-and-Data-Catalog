@@ -26,7 +26,7 @@ In this lab, we will learn more about the Autonomous Database's built-in Databas
 
 - This lab requires completion of Lab 1, **Provisioning an Autonomous Database**, in the Contents menu on the left.
 
-    
+
 
 ## Task 1: Create Object Storage Bucket and Emit Events
 
@@ -42,7 +42,7 @@ In this step you will create an Object Storage bucket and configure it to emit o
 
    2. Click Create.
 
-   
+
 
    **If you're using an existing bucket:**
 
@@ -50,7 +50,7 @@ In this step you will create an Object Storage bucket and configure it to emit o
    2. On the Bucket Details page, click the **Edit** link next to **Emit Object Events**.
    3. Select the **Emit Objects Events** check box, and then click **Save Changes**.
 
-3. Not we set your bucket to Public to simplify the access.  From your bucket 3-dot menu, select Edit Visibility and change to Public.
+3. Note we set your bucket to Public to simplify the access.  From your bucket 3-dot menu, select Edit Visibility and change to Public.
 
    ![Click Tools, then Database Actions](images/edit-visibility-public.png " ")
 
@@ -84,7 +84,7 @@ Under Rule Conditions select:
 
 - **Service Name:** Object Storage
 
-- **Event Type:** Object - Create 
+- **Event Type:** Object - Create
 
 
 
@@ -96,7 +96,7 @@ Under Actions select:
 
 - **Topic:** Select the name of the topic you created above, in [Step 2: Create a Notifications service subscription topic](https://docs.oracle.com/en/database/oracle/sql-developer-web/sdwad/feed.html#GUID-9C904C07-23EB-470A-BE3A-F3A57B4E1E28__CREATE_TOPIC).
 
-![Click Tools, then Database Actions](images/create-event-rule.png " ")
+![Click Tools, then Database Actions](images/create-event-rule-and-action.png " ")
 
 3. Click **Create Rule**.
 
@@ -129,11 +129,11 @@ In this step you will set up a real-time data feed of customer movie stream data
     Copy and paste the URI of your bucket that will hold the movie stream data into the URI + Bucket field. This was done in Task1, Step 5 above.
 
     ```
-    
-    ******* need URI where the movie stream data .csv file will be loaded 
+
+    ******* need URI where the movie stream data .csv file will be loaded
     ******* below is an example
     https://objectstorage.us-ashburn-1.oraclecloud.com/n/c4u04/b/movie/o
-    
+
     ```
 
     Select **No Credential** as this is a public bucket.
@@ -142,7 +142,7 @@ In this step you will set up a real-time data feed of customer movie stream data
 
     ![Click Data Load](images/add-cloud-storage.png " ")
 
-7. Now that we have added a connection to the OCI Object Storage go back to the main Data Load page and click **Feed Data** from **Cloud Storage**. 
+7. Now that we have added a connection to the OCI Object Storage go back to the main Data Load page and click **Feed Data** from **Cloud Storage**.
 
     ![Click Data Load](images/create-live-table-feed.png " ")
 
@@ -170,11 +170,11 @@ In this step you will set up a real-time data feed of customer movie stream data
 
     ![Click Data Load](images/show-notification-url.png " ")
 
-    
+
 
     11. In the **Notification URL** dialog box, click the **Copy** icon to copy the URL to the clipboard. You may want to copy it to a temporary file, so you can retrieve it later. You'll use this URL in the next step.
 
-        
+
 
     ![Click Data Load](images/copy-notification-url.png " ")
 
@@ -234,7 +234,7 @@ Normally a process would stream data into the Object Storage.  But we will uploa
 
    ![Click Data Load](images/upload-movie-stream.png " ")
 
-## Task 8: View the Real-Time Movie Stream Data 
+## Task 8: View the Real-Time Movie Stream Data
 
 In this step, we will check whether the new movie stream data that has been fed automatically into ADW using the OCI event and notifications system.  
 
