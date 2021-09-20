@@ -42,6 +42,11 @@
         "description": "Use Autonomous Database catalog",
         "filename": "../../Data-catalog/Data-catalog.md"
       },
+	  {
+        "title": "Lab 7: Even Notifiation Live Feed",
+        "description": "Live feed based on notification",
+        "filename": "../../Event/database-actions-event-notification.md"
+      },
       {
         "title": "Need Help?",
         "description": "Solutions to Common Problems and Directions for Receiving Live Help",
