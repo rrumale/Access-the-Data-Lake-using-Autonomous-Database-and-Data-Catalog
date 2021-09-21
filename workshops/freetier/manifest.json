@@ -40,12 +40,12 @@
       {
         "title": "Lab 6: Autonomous Data catalog",
         "description": "Use Autonomous Database catalog",
-        "filename": "../../Data-catalog/Data-catalog.md"
+        "filename": "../../data-catalog/data-catalog.md"
       },
 	  {
         "title": "Lab 7: Even Notifiation Live Feed",
         "description": "Live feed based on notification",
-        "filename": "../../Events/database-actions-event-notification.md"
+        "filename": "../../events/database-actions-event-notification.md"
       },
       {
         "title": "Need Help?",
