@@ -26,7 +26,11 @@ In this lab, we will learn more about the Autonomous Database's built-in Databas
 
 - This lab requires completion of Lab 1, **Provisioning an Autonomous Database**, in the Contents menu on the left.
 
+### Overview of Setting Up the OCI Notifications and Events 
 
+The diagram shows the tasks to enable event based notification for the Object Storage.
+
+![](images/flow-diagram.png " ")
 
 ## Task 1: Create Object Storage Bucket and Emit Events
 
