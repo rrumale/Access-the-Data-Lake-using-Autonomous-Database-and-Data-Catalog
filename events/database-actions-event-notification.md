@@ -26,7 +26,7 @@ In this lab, we will learn more about the Autonomous Database's built-in Databas
 
 - This lab requires completion of Lab 1, **Provisioning an Autonomous Database**, in the Contents menu on the left.
 
-### Overview of Setting Up the OCI Notifications and Events 
+### Overview of Setting Up the OCI Notifications and Events
 
 The diagram shows the tasks to enable event based notification for the Object Storage.
 
@@ -271,5 +271,5 @@ The lab used the OCI Notification and Subscription service to subscribe to event
 ## Acknowledgements
 
 * **Author** - Milton Wan, Database Product Management
-* **Contributors** -  Vijay Balebail, Database Product Management
-* **Last Updated By/Date** - Milton Wan, Database Product Management, September 2021
+* **Contributors** -  Vijay Balebail, Rajeev Rumale, Database Product Management
+* **Last Updated By/Date** - Rajeev Rumale, Database Product Management, September 2021
