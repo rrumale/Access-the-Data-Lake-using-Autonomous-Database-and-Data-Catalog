@@ -145,7 +145,7 @@ To simulate a data stream, we would upload a new file into the bucket we created
 2. Go to the bucket and load the August data set.  Follow the same step to load the data file in the bucket we did earlier.
 ![Upload the next data set](images/upload_august2020_data_file.png =1000x500)
   The file would get listed in the object list of the bucket.
-![New file will show in the object list](images/upload_august2020_data_file_2.png =1000x500)
+![New file will show in the object list](images/upload_august2020_data_file_2.png =500x)
 
 3. Run the Live Feed job immediately.  Alternatively, you can wait for the job to run as per schedule.
 ![Confirmation message of successful creation of new live feed job](images/run_live_table_feed_immediately_once.png =1000x1000)
